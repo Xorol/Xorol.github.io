@@ -52,6 +52,9 @@ let starcalc = document.createElement("a");
 starcalc.href = "https://xorol.github.io/other/starcalc/starcalc.html";
 starcalc.innerText = "Star calculator";
 
+let ideologyTest = document.createElement("a")
+ideologyTest.href = "https://xorol.github.io/other/ideology_test/ideology_test.html";
+ideologyTest.innerText = "Ideology Test";
 
 let tsevhu = document.createElement("a");
 tsevhu.href = "https://ab538322-bb07-482b-b4c5-1bdbfd9c77b0.id.repl.co/";
@@ -101,8 +104,11 @@ switch (window.location.href) {
   case "https://xorol.github.io/rushk-add-dict.html":
     addDictRushk.classList = ["active"];
     break;
-
+  case "https://xorol.github.io/other/ideology_test/ideology_test.html":
+    ideologyTest.classList = ["active"];
+    break;
 }
+
 esolangsContents.appendChild(numbers);
 esolangsContents.appendChild(wips);
 esolangsContents.appendChild(interpreters);
@@ -111,6 +117,7 @@ esolangs.appendChild(esolangsContents);
 otherContents.appendChild(noise);
 otherContents.appendChild(wtd);
 otherContents.appendChild(starcalc);
+otherContents.appendChild(ideologyTest);
 other.appendChild(otherContents);
 
 rushkDpdContents.appendChild(rushk);
