@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #222;
+  color: whitesmoke;
+}
+
+#ideology {
+  text-decoration-line: underline;
+}
+
+.form-div, #output-modal {
+  background-color: #333;
+  border-radius: 5px;
+  border: none !important;
+  padding: 3px;
+  color: whitesmoke;
+}
+
+.form-div {
+  width: fit-content;
+  position: absolute;
+  top: 50vh;
+  right: 50vw;
+  transform: translate(50%, -50%);
+}
