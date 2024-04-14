@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="topnav"></div>
+  <div class="form-div" id="form-div">
+    <h3 style="color: blueviolet;"><strong>What is your political ideology?</strong></h3>
+    <p contenteditable="" id="ideology" onclick="this.innerText = '';" >Enter your response here…</p>
+    <button onclick="submitIdeology();">Submit</button>
+  </div>
+
+  <dialog id="output-modal">
+    <h3 style="color: blueviolet;">Your political ideology is…</h3>
+    <p id="output"></p>
+  </dialog>
+  
+  <script src="ideology_test.js"></script>
+  <script src="https://xorol.github.io/topnav.js"></script>
+</body>
+
+</html>
